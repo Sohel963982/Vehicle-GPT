@@ -1,0 +1,28 @@
+name: demo_14days
+days: 14
+seed: 42
+start_date: null
+ambient:
+  base_c: 26
+  daily_swing_c: 6
+  trend_c_per_day: -1.2        # gets colder every day
+highway_share: 0.25
+faults:
+  # Day 2: heavy highway driving and a failing coolant pump -> overheat warning
+  - type: highway_share_change
+    day: 2
+    share: 0.7
+  - type: pump_degrade
+    day: 2
+    at_min: 5
+    pump_pct_after: 0
+  # Days 9-14: much more highway driving
+  - type: highway_share_change
+    from_day: 9
+    to_day: 14
+    share: 0.55
+  # Days 12-14: faded lane markings -> more ADAS disengagements
+  - type: lane_fade
+    from_day: 12
+    to_day: 14
+    rate_per_hour: 8

@@ -1,0 +1,123 @@
+[
+  {
+    "type": "pump_degrade",
+    "ts": 1792397089,
+    "day": 2,
+    "cause": "coolant_pump_degraded",
+    "pump_pct_after": 0
+  },
+  {
+    "type": "battery_overheat_warning",
+    "ts": 1792398666,
+    "day": 2,
+    "temp_c": 50.15
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793003095,
+    "day": 9,
+    "reason": 2
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793087947,
+    "day": 10,
+    "reason": 2
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793210968,
+    "day": 11,
+    "reason": 2
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793262022,
+    "day": 12,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793262351,
+    "day": 12,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793298431,
+    "day": 12,
+    "reason": 3
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793298917,
+    "day": 12,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793299182,
+    "day": 12,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793385160,
+    "day": 13,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793385252,
+    "day": 13,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793385538,
+    "day": 13,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793386625,
+    "day": 13,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793386695,
+    "day": 13,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793434269,
+    "day": 14,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793471732,
+    "day": 14,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793471798,
+    "day": 14,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793471830,
+    "day": 14,
+    "reason": 1
+  },
+  {
+    "type": "adas_disengage",
+    "ts": 1793472672,
+    "day": 14,
+    "reason": 1
+  }
+]

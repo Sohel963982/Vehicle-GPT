@@ -1,0 +1,15 @@
+[
+  {
+    "type": "pump_degrade",
+    "ts": 1793433617,
+    "day": 1,
+    "cause": "coolant_pump_degraded",
+    "pump_pct_after": 5
+  },
+  {
+    "type": "battery_overheat_warning",
+    "ts": 1793434707,
+    "day": 1,
+    "temp_c": 50.01
+  }
+]

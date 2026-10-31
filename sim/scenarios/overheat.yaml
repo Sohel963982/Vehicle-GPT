@@ -1,0 +1,13 @@
+name: battery_overheat
+days: 1
+seed: 7
+start_date: null
+ambient:
+  base_c: 32
+  daily_swing_c: 5
+highway_share: 0.6
+faults:
+  - type: pump_degrade
+    day: 1
+    at_min: 10
+    pump_pct_after: 5
