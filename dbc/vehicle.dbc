@@ -1,0 +1,23 @@
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_: SIM
+
+BO_ 256 Powertrain: 8 SIM
+ SG_ Speed_kmh : 0|16@1+ (0.01,0) [0|300] "km/h" Vector__XXX
+ SG_ Battery_SoC : 16|16@1+ (0.01,0) [0|100] "%" Vector__XXX
+ SG_ Power_kW : 32|16@1- (0.1,0) [-300|300] "kW" Vector__XXX
+
+BO_ 512 Thermal: 8 SIM
+ SG_ Batt_Temp_C : 0|16@1- (0.01,0) [-40|120] "C" Vector__XXX
+ SG_ Coolant_Pump_Pct : 16|16@1+ (0.01,0) [0|100] "%" Vector__XXX
+ SG_ Ambient_C : 32|16@1- (0.01,0) [-40|60] "C" Vector__XXX
+ SG_ HVAC_kW : 48|16@1+ (0.01,0) [0|10] "kW" Vector__XXX
+
+BO_ 768 ADAS: 8 SIM
+ SG_ LKA_Active : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Takeover_Req : 8|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Disengage_Reason : 16|8@1+ (1,0) [0|10] "" Vector__XXX
